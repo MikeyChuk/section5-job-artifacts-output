@@ -28,7 +28,7 @@ jobs:
       - name: upload my artifacts
         uses: actions/upload-artifact@v4
         with:
-          name: dist-files
+          name: dist-files-dorkindor
           path: dist
   deploy:
     needs: build
